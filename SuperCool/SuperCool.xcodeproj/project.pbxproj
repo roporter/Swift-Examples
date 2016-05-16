@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		550BED551CE8A78100CA213F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BED541CE8A78100CA213F /* AppDelegate.swift */; };
+		550BED571CE8A78100CA213F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BED561CE8A78100CA213F /* ViewController.swift */; };
+		550BED5A1CE8A78100CA213F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550BED581CE8A78100CA213F /* Main.storyboard */; };
+		550BED5C1CE8A78100CA213F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550BED5B1CE8A78100CA213F /* Assets.xcassets */; };
+		550BED5F1CE8A78100CA213F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 550BED5D1CE8A78100CA213F /* LaunchScreen.storyboard */; };
+		550BED6A1CE8A78100CA213F /* SuperCoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BED691CE8A78100CA213F /* SuperCoolTests.swift */; };
+		550BED751CE8A78100CA213F /* SuperCoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BED741CE8A78100CA213F /* SuperCoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		550BED661CE8A78100CA213F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550BED491CE8A78100CA213F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550BED501CE8A78100CA213F;
+			remoteInfo = SuperCool;
+		};
+		550BED711CE8A78100CA213F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 550BED491CE8A78100CA213F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550BED501CE8A78100CA213F;
+			remoteInfo = SuperCool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		550BED511CE8A78100CA213F /* SuperCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		550BED541CE8A78100CA213F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		550BED561CE8A78100CA213F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		550BED591CE8A78100CA213F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		550BED5B1CE8A78100CA213F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		550BED5E1CE8A78100CA213F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		550BED601CE8A78100CA213F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550BED651CE8A78100CA213F /* SuperCoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550BED691CE8A78100CA213F /* SuperCoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCoolTests.swift; sourceTree = "<group>"; };
+		550BED6B1CE8A78100CA213F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550BED701CE8A78100CA213F /* SuperCoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		550BED741CE8A78100CA213F /* SuperCoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperCoolUITests.swift; sourceTree = "<group>"; };
+		550BED761CE8A78100CA213F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		550BED4E1CE8A78100CA213F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550BED621CE8A78100CA213F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550BED6D1CE8A78100CA213F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		550BED481CE8A78100CA213F = {
+			isa = PBXGroup;
+			children = (
+				550BED531CE8A78100CA213F /* SuperCool */,
+				550BED681CE8A78100CA213F /* SuperCoolTests */,
+				550BED731CE8A78100CA213F /* SuperCoolUITests */,
+				550BED521CE8A78100CA213F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		550BED521CE8A78100CA213F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				550BED511CE8A78100CA213F /* SuperCool.app */,
+				550BED651CE8A78100CA213F /* SuperCoolTests.xctest */,
+				550BED701CE8A78100CA213F /* SuperCoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		550BED531CE8A78100CA213F /* SuperCool */ = {
+			isa = PBXGroup;
+			children = (
+				550BED541CE8A78100CA213F /* AppDelegate.swift */,
+				550BED561CE8A78100CA213F /* ViewController.swift */,
+				550BED581CE8A78100CA213F /* Main.storyboard */,
+				550BED5B1CE8A78100CA213F /* Assets.xcassets */,
+				550BED5D1CE8A78100CA213F /* LaunchScreen.storyboard */,
+				550BED601CE8A78100CA213F /* Info.plist */,
+			);
+			path = SuperCool;
+			sourceTree = "<group>";
+		};
+		550BED681CE8A78100CA213F /* SuperCoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				550BED691CE8A78100CA213F /* SuperCoolTests.swift */,
+				550BED6B1CE8A78100CA213F /* Info.plist */,
+			);
+			path = SuperCoolTests;
+			sourceTree = "<group>";
+		};
+		550BED731CE8A78100CA213F /* SuperCoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				550BED741CE8A78100CA213F /* SuperCoolUITests.swift */,
+				550BED761CE8A78100CA213F /* Info.plist */,
+			);
+			path = SuperCoolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		550BED501CE8A78100CA213F /* SuperCool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550BED791CE8A78100CA213F /* Build configuration list for PBXNativeTarget "SuperCool" */;
+			buildPhases = (
+				550BED4D1CE8A78100CA213F /* Sources */,
+				550BED4E1CE8A78100CA213F /* Frameworks */,
+				550BED4F1CE8A78100CA213F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCool;
+			productName = SuperCool;
+			productReference = 550BED511CE8A78100CA213F /* SuperCool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		550BED641CE8A78100CA213F /* SuperCoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550BED7C1CE8A78100CA213F /* Build configuration list for PBXNativeTarget "SuperCoolTests" */;
+			buildPhases = (
+				550BED611CE8A78100CA213F /* Sources */,
+				550BED621CE8A78100CA213F /* Frameworks */,
+				550BED631CE8A78100CA213F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550BED671CE8A78100CA213F /* PBXTargetDependency */,
+			);
+			name = SuperCoolTests;
+			productName = SuperCoolTests;
+			productReference = 550BED651CE8A78100CA213F /* SuperCoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		550BED6F1CE8A78100CA213F /* SuperCoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 550BED7F1CE8A78100CA213F /* Build configuration list for PBXNativeTarget "SuperCoolUITests" */;
+			buildPhases = (
+				550BED6C1CE8A78100CA213F /* Sources */,
+				550BED6D1CE8A78100CA213F /* Frameworks */,
+				550BED6E1CE8A78100CA213F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				550BED721CE8A78100CA213F /* PBXTargetDependency */,
+			);
+			name = SuperCoolUITests;
+			productName = SuperCoolUITests;
+			productReference = 550BED701CE8A78100CA213F /* SuperCoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		550BED491CE8A78100CA213F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = roporter;
+				TargetAttributes = {
+					550BED501CE8A78100CA213F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					550BED641CE8A78100CA213F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 550BED501CE8A78100CA213F;
+					};
+					550BED6F1CE8A78100CA213F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 550BED501CE8A78100CA213F;
+					};
+				};
+			};
+			buildConfigurationList = 550BED4C1CE8A78100CA213F /* Build configuration list for PBXProject "SuperCool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 550BED481CE8A78100CA213F;
+			productRefGroup = 550BED521CE8A78100CA213F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550BED501CE8A78100CA213F /* SuperCool */,
+				550BED641CE8A78100CA213F /* SuperCoolTests */,
+				550BED6F1CE8A78100CA213F /* SuperCoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		550BED4F1CE8A78100CA213F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550BED5F1CE8A78100CA213F /* LaunchScreen.storyboard in Resources */,
+				550BED5C1CE8A78100CA213F /* Assets.xcassets in Resources */,
+				550BED5A1CE8A78100CA213F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550BED631CE8A78100CA213F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550BED6E1CE8A78100CA213F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		550BED4D1CE8A78100CA213F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550BED571CE8A78100CA213F /* ViewController.swift in Sources */,
+				550BED551CE8A78100CA213F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550BED611CE8A78100CA213F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550BED6A1CE8A78100CA213F /* SuperCoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		550BED6C1CE8A78100CA213F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550BED751CE8A78100CA213F /* SuperCoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		550BED671CE8A78100CA213F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550BED501CE8A78100CA213F /* SuperCool */;
+			targetProxy = 550BED661CE8A78100CA213F /* PBXContainerItemProxy */;
+		};
+		550BED721CE8A78100CA213F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 550BED501CE8A78100CA213F /* SuperCool */;
+			targetProxy = 550BED711CE8A78100CA213F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		550BED581CE8A78100CA213F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550BED591CE8A78100CA213F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		550BED5D1CE8A78100CA213F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				550BED5E1CE8A78100CA213F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		550BED771CE8A78100CA213F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		550BED781CE8A78100CA213F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		550BED7A1CE8A78100CA213F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperCool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.roporter.SuperCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		550BED7B1CE8A78100CA213F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperCool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.roporter.SuperCool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		550BED7D1CE8A78100CA213F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperCoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.roporter.SuperCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCool.app/SuperCool";
+			};
+			name = Debug;
+		};
+		550BED7E1CE8A78100CA213F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperCoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.roporter.SuperCoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCool.app/SuperCool";
+			};
+			name = Release;
+		};
+		550BED801CE8A78100CA213F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperCoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.roporter.SuperCoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperCool;
+			};
+			name = Debug;
+		};
+		550BED811CE8A78100CA213F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperCoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.roporter.SuperCoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperCool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		550BED4C1CE8A78100CA213F /* Build configuration list for PBXProject "SuperCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550BED771CE8A78100CA213F /* Debug */,
+				550BED781CE8A78100CA213F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		550BED791CE8A78100CA213F /* Build configuration list for PBXNativeTarget "SuperCool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550BED7A1CE8A78100CA213F /* Debug */,
+				550BED7B1CE8A78100CA213F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		550BED7C1CE8A78100CA213F /* Build configuration list for PBXNativeTarget "SuperCoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550BED7D1CE8A78100CA213F /* Debug */,
+				550BED7E1CE8A78100CA213F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		550BED7F1CE8A78100CA213F /* Build configuration list for PBXNativeTarget "SuperCoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				550BED801CE8A78100CA213F /* Debug */,
+				550BED811CE8A78100CA213F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 550BED491CE8A78100CA213F /* Project object */;
+}

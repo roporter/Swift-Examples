@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autoLayout2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVp-7F-PXS">
+                                <rect key="frame" x="20" y="20" width="560" height="100"/>
+                                <color key="backgroundColor" red="0.75180495689654947" green="0.21629488185482756" blue="0.31272157937586204" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="4eV-8W-BS8"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xdk-Qc-2Ls">
+                                <rect key="frame" x="20" y="128" width="276" height="128"/>
+                                <color key="backgroundColor" red="0.37947493345116318" green="0.61115904481593009" blue="0.96309267241379315" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="IfO-P7-m2M"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ujz-qn-veW">
+                                <rect key="frame" x="304" y="128" width="276" height="128"/>
+                                <color key="backgroundColor" red="0.96309267241379315" green="0.57060883620689651" blue="0.19242995689655173" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="uGQ-be-0LU"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="rocket 2" translatesAutoresizingMaskIntoConstraints="NO" id="TrV-ba-clq">
+                                <rect key="frame" x="15" y="274" width="571" height="306"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TrV-ba-clq" secondAttribute="height" multiplier="571:306" id="rlb-rI-fW3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NVp-7F-PXS" firstAttribute="width" secondItem="ujz-qn-veW" secondAttribute="width" multiplier="2" constant="8" id="It1-VO-iVa"/>
+                            <constraint firstItem="TrV-ba-clq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="RYM-Fu-1si"/>
+                            <constraint firstItem="NVp-7F-PXS" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="VLB-zp-1Da"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TrV-ba-clq" secondAttribute="bottom" constant="20" id="Xzy-LA-NUZ"/>
+                            <constraint firstItem="xdk-Qc-2Ls" firstAttribute="top" secondItem="NVp-7F-PXS" secondAttribute="bottom" constant="8" id="bbq-LN-icR"/>
+                            <constraint firstItem="NVp-7F-PXS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="epQ-f8-gwg"/>
+                            <constraint firstItem="ujz-qn-veW" firstAttribute="top" secondItem="NVp-7F-PXS" secondAttribute="bottom" constant="8" id="fdu-7h-gcm"/>
+                            <constraint firstItem="xdk-Qc-2Ls" firstAttribute="leading" secondItem="NVp-7F-PXS" secondAttribute="leading" id="hr5-I2-5am"/>
+                            <constraint firstItem="NVp-7F-PXS" firstAttribute="width" secondItem="xdk-Qc-2Ls" secondAttribute="width" multiplier="2" constant="8" id="i7G-N7-kit"/>
+                            <constraint firstItem="NVp-7F-PXS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="n0K-eU-sro"/>
+                            <constraint firstItem="TrV-ba-clq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="t9d-o7-1Ej"/>
+                            <constraint firstItem="ujz-qn-veW" firstAttribute="trailing" secondItem="NVp-7F-PXS" secondAttribute="trailing" id="wgy-i0-B4r"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="210" y="270"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="rocket 2" width="417" height="280"/>
+    </resources>
+</document>

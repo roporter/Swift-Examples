@@ -23,41 +23,51 @@ class ViewController: UIViewController {
     @IBOutlet weak var btnP1Attack: UIButton!
     @IBOutlet weak var btnP2Attack: UIButton!
     @IBOutlet weak var lblAction: UIImageView!
+    @IBOutlet weak var lblActionMessage: UILabel!
     //@IBOutlet weak var lblStart: UILabel!
     
-    enum eCharacter: String {
-        case Enemy = "Enemy"
-        case Knight = "Knight"
-        case Empty = ""
-    }
-    
-    var Player1Character = eCharacter.Empty
-    var Player2Character = eCharacter.Empty
+    var Player1 = Character()
+    var Player2 = Character()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        Player1.setImage(eCharacter.Empty)
+        Player2.setImage(eCharacter.Empty)
     }
 
     @IBAction func onP1EnemyPressed(sender: AnyObject) {
         butP1Knight.hidden = true
-        Player1Character = eCharacter.Enemy
+        Player1.setImage(eCharacter.Enemy)
+        Player1.hp = 60
+        Player1.attackPwr = 10
+        Player1.name = "Devil Wizard"
     }
     @IBAction func onP1KnightPressed(sender: AnyObject) {
         butP1Enemy.hidden = true
-        Player1Character = eCharacter.Knight
+        Player1.setImage(eCharacter.Knight)
+        Player1.hp = 100
+        Player1.attackPwr = 20
+        Player1.name = "Black Knight"
     }
     @IBAction func onP2EnemyPressed(sender: AnyObject) {
         butP2Knight.hidden = true
-        Player2Character = eCharacter.Enemy
+        Player2.setImage(eCharacter.Enemy)
+        Player2.hp = 60
+        Player2.attackPwr = 10
+        Player2.name = "Devil Wizard"
     }
     @IBAction func onP2KnightPressed(sender: AnyObject) {
         butP2Enemy.hidden = true
-        Player2Character = eCharacter.Knight
+        Player2.setImage(eCharacter.Knight)
+        Player2.hp = 100
+        Player2.attackPwr = 20
+        Player2.name = "Black Knight"
     }
     @IBAction func onStartPressed(sender: AnyObject) {
-        if Player1Character != eCharacter.Empty && Player2Character != eCharacter.Empty {
+        if Player1.image != eCharacter.Empty && Player2.image != eCharacter.Empty {
             startGame()
+            lblActionMessage.text = "\(Player1.name) v \(Player2.name)"
         }
     }
     
@@ -70,9 +80,10 @@ class ViewController: UIViewController {
         butP2Knight.hidden = true
         butStart.hidden = true
         //lblStart.hidden = true
-        if Player1Character == eCharacter.Enemy { imgP1Enemy.hidden = false } else if Player1Character == eCharacter.Knight { imgP1Knight.hidden = false }
-        if Player2Character == eCharacter.Enemy { imgP2Enemy.hidden = false } else if Player2Character == eCharacter.Knight { imgP2Knight.hidden = false }
+        if Player1.image == eCharacter.Enemy { imgP1Enemy.hidden = false } else if Player1.image == eCharacter.Knight { imgP1Knight.hidden = false }
+        if Player2.image == eCharacter.Enemy { imgP2Enemy.hidden = false } else if Player2.image == eCharacter.Knight { imgP2Knight.hidden = false }
         lblAction.hidden = false
+        lblActionMessage.hidden = false
         btnP1Attack.hidden = false
         btnP2Attack.hidden = false
     }
@@ -90,6 +101,7 @@ class ViewController: UIViewController {
         imgP2Enemy.hidden = true
         imgP2Knight.hidden = true
         lblAction.hidden = true
+        lblActionMessage.hidden = true
         btnP1Attack.hidden = true
         btnP2Attack.hidden = true
     }

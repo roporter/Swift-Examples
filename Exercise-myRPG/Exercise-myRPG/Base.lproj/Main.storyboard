@@ -155,6 +155,16 @@
                                 </constraints>
                                 <state key="normal" image="player2attackbtn"/>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Starting up...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KSd-6p-JZQ" userLabel="LblActionMessage">
+                                <rect key="frame" x="184" y="565" width="274" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="Tlx-hN-hxR"/>
+                                    <constraint firstAttribute="height" constant="27" id="oie-Nu-ak1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="21"/>
+                                <color key="textColor" red="0.99163530759999996" green="0.99163530759999996" blue="0.99163530759999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -171,6 +181,7 @@
                             <constraint firstItem="Trl-Bl-cW6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="34" id="Fb3-VB-APD"/>
                             <constraint firstItem="umj-mR-1H1" firstAttribute="top" secondItem="GP2-Z1-kOl" secondAttribute="bottom" constant="30" id="HoD-aD-jyW"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RjQ-wQ-K1y" secondAttribute="bottom" constant="55" id="JSt-jI-Ivd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KSd-6p-JZQ" secondAttribute="bottom" constant="8" id="LT8-fp-baQ"/>
                             <constraint firstItem="umj-mR-1H1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MzY-qa-19c"/>
                             <constraint firstItem="YgK-O2-qRY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ovl-0I-isv"/>
                             <constraint firstItem="Trl-Bl-cW6" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Pjh-oA-y6O"/>
@@ -196,6 +207,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="zjU-Aw-ao2" secondAttribute="trailing" constant="-11" id="uP8-bD-PHz"/>
                             <constraint firstItem="Do5-bc-j8d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wqG-FG-C8L"/>
                             <constraint firstItem="1zc-hz-guX" firstAttribute="top" secondItem="hCC-uu-5Nv" secondAttribute="bottom" constant="14" id="y93-m4-1mn"/>
+                            <constraint firstItem="KSd-6p-JZQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="164" id="zFt-eF-gfU"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -218,6 +230,7 @@
                         <outlet property="imgP2Enemy" destination="zjU-Aw-ao2" id="E0w-vl-e8o"/>
                         <outlet property="imgP2Knight" destination="ULW-do-uas" id="ZMC-ui-4kl"/>
                         <outlet property="lblAction" destination="Do5-bc-j8d" id="6gG-Mh-BjU"/>
+                        <outlet property="lblActionMessage" destination="KSd-6p-JZQ" id="y4V-5p-8eU"/>
                         <outlet property="lblP1" destination="hCC-uu-5Nv" id="q3g-BX-pjK"/>
                         <outlet property="lblP2" destination="Y5H-hs-K5E" id="eOJ-Oh-ELT"/>
                     </connections>

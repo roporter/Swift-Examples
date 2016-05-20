@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sizeClasses" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2FA9A39900000578-3377226-Can_you_smell_it_After_stepping_away_from_the_ring_and_focusing_-a-48_1451384079718" translatesAutoresizingMaskIntoConstraints="NO" id="8zI-Tk-iah">
+                                <rect key="frame" x="180" y="28" width="240" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="241" id="N4H-Uv-0yD"/>
+                                    <constraint firstAttribute="height" constant="241" id="f58-0h-Icv"/>
+                                    <constraint firstAttribute="width" constant="240" id="inI-gL-xG0"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="tOY-V9-OzR"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="N4H-Uv-0yD"/>
+                                        <exclude reference="tOY-V9-OzR"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="N4H-Uv-0yD"/>
+                                        <include reference="tOY-V9-OzR"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="20" y="28" width="565" height="241"/>
+                                    <mask key="constraints">
+                                        <exclude reference="inI-gL-xG0"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="28" width="360" height="194"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQl-3i-Inu">
+                                <rect key="frame" x="180" y="289" width="240" height="272"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="560" id="OGj-Ng-r9x"/>
+                                    <constraint firstAttribute="height" constant="272" id="TIx-Db-mgL"/>
+                                    <constraint firstAttribute="width" constant="360" id="eQa-kk-ANI"/>
+                                </constraints>
+                                <string key="text">Professional wrestler and actor Dwayne "The Rock" Douglas Johnson was born on May 2, 1972, in Hayward, California. The grandson of professional wrestler Peter "High Chief" Fanene Maivia and son of wrestler Rocky Johnson, the young Johnson grew up watching his father perform in the ring. But with no plans to follow in his footsteps, Johnson played college football at the University of Miami where he had great success until a back injury cost him a spot in the NFL.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Italic" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OGj-Ng-r9x"/>
+                                        <exclude reference="TIx-Db-mgL"/>
+                                        <exclude reference="eQa-kk-ANI"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="OGj-Ng-r9x"/>
+                                        <include reference="TIx-Db-mgL"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="283" width="360" height="272"/>
+                                    <mask key="constraints">
+                                        <include reference="eQa-kk-ANI"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="236" width="360" height="272"/>
+                                    <mask key="constraints">
+                                        <exclude reference="OGj-Ng-r9x"/>
+                                        <exclude reference="TIx-Db-mgL"/>
+                                        <exclude reference="eQa-kk-ANI"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WQl-3i-Inu" secondAttribute="bottom" constant="20" id="05K-Wc-ZLb"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="4gP-AC-oSl"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="E2J-TP-XM6"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="E9Z-nk-Xwr"/>
+                            <constraint firstItem="8zI-Tk-iah" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="LVn-Zk-rOJ"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="top" secondItem="8zI-Tk-iah" secondAttribute="bottom" constant="66" id="SzG-Wy-4EQ"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="leading" secondItem="8zI-Tk-iah" secondAttribute="trailing" constant="14" id="Vei-7D-7G6"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="216" id="WiL-jk-OYO"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Wxu-01-B2H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8zI-Tk-iah" secondAttribute="trailing" id="a9a-Wh-Y2g"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="ehf-2U-R7l"/>
+                            <constraint firstItem="8zI-Tk-iah" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jzS-wc-2u9"/>
+                            <constraint firstItem="8zI-Tk-iah" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kST-Db-VCg"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="lqf-Of-MLO"/>
+                            <constraint firstItem="WQl-3i-Inu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="oUs-YR-bq2"/>
+                            <constraint firstItem="8zI-Tk-iah" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pSU-8j-lMC"/>
+                            <constraint firstItem="8zI-Tk-iah" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="x7n-BZ-H9V"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="LVn-Zk-rOJ"/>
+                                <exclude reference="a9a-Wh-Y2g"/>
+                                <exclude reference="jzS-wc-2u9"/>
+                                <exclude reference="pSU-8j-lMC"/>
+                                <exclude reference="4gP-AC-oSl"/>
+                                <exclude reference="E2J-TP-XM6"/>
+                                <exclude reference="E9Z-nk-Xwr"/>
+                                <exclude reference="SzG-Wy-4EQ"/>
+                                <exclude reference="Vei-7D-7G6"/>
+                                <exclude reference="WiL-jk-OYO"/>
+                                <exclude reference="Wxu-01-B2H"/>
+                                <exclude reference="ehf-2U-R7l"/>
+                                <exclude reference="lqf-Of-MLO"/>
+                                <exclude reference="oUs-YR-bq2"/>
+                                <exclude reference="05K-Wc-ZLb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="LVn-Zk-rOJ"/>
+                                <include reference="jzS-wc-2u9"/>
+                                <include reference="E2J-TP-XM6"/>
+                                <include reference="Vei-7D-7G6"/>
+                                <include reference="ehf-2U-R7l"/>
+                                <exclude reference="oUs-YR-bq2"/>
+                                <include reference="05K-Wc-ZLb"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="a9a-Wh-Y2g"/>
+                                <include reference="pSU-8j-lMC"/>
+                                <include reference="WiL-jk-OYO"/>
+                                <include reference="Wxu-01-B2H"/>
+                                <include reference="lqf-Of-MLO"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="4gP-AC-oSl"/>
+                                <include reference="E9Z-nk-Xwr"/>
+                                <include reference="SzG-Wy-4EQ"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <exclude reference="E9Z-nk-Xwr"/>
+                                <exclude reference="WiL-jk-OYO"/>
+                                <exclude reference="lqf-Of-MLO"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="246" y="576"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2FA9A39900000578-3377226-Can_you_smell_it_After_stepping_away_from_the_ring_and_focusing_-a-48_1451384079718" width="634" height="637"/>
+    </resources>
+</document>
